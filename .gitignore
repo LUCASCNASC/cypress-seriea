@@ -1,0 +1,6 @@
+node_modules
+dados.json
+.env
+users.json
+screenshots
+cypress.config.ts
