@@ -1,4 +1,4 @@
-import { MenuInicioPage } from '../page/MenuInicioPage';
+import { MenuInicioPage } from '../../page/menus/MenuInicioPage';
 
 describe('menu Início', () => {
 
@@ -8,7 +8,7 @@ describe('menu Início', () => {
     cy.visit('/');
   });
 
-  it('logout sucess', () => {
+  it('Início', () => {
     menuInicioPage.clickInicio(); // ✅ usa o método da instância
   });
 });

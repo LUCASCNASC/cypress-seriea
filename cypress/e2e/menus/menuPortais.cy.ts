@@ -1,4 +1,4 @@
-import { MenuPortaisPage } from '../page/MenuPortaisPage';
+import { MenuPortaisPage } from '../../page/menus/MenuPortaisPage';
 
 describe('menus Portais', () => {
 
@@ -9,7 +9,7 @@ describe('menus Portais', () => {
     menuPortaisPage.clickPortais(); // ✅ usa o método da instância
   });
 
-  it.only('Portais -> Aceleração Econômica e Turismo', () => {
+  it('Portais -> Aceleração Econômica e Turismo', () => {
     menuPortaisPage.clickAceleracaoEconomicaTurismo(); // ✅ usa o método da instância
   });
 

@@ -1,4 +1,4 @@
-import { MenuACidadePage } from '../page/MenuACidadePage';
+import { MenuACidadePage } from '../../page/menus/MenuACidadePage';
 
 describe('menus A Cidade', () => {
 
