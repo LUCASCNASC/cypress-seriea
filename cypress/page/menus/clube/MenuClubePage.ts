@@ -13,7 +13,6 @@ export class MenuClubePage {
     }
 
     //validar "Organograma"
-
     validateOrganograma() {
         cy.get('.mb-3 > :nth-child(6) > strong')
             .should("be.visible")
