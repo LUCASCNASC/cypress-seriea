@@ -32,56 +32,69 @@ describe('menu futebol feminino', () => {
     competitivasPage.validateBeachSoccer();
   });
 
-  it.only('Bocha', () => {
-    
+  it('Bocha', () => {
+    competitivasPage.clickBocha();
+    competitivasPage.validateBocha();
   });
 
   it('Boxe', () => {
-    
+    competitivasPage.clickBoxe();
+    competitivasPage.validateBoxe();
   });
 
   it('Footgolf', () => {
-    
+    competitivasPage.clickFootgolf();
+    competitivasPage.validateFootgolf();
   });
 
   it('Futebol Americano', () => {
-    
+    competitivasPage.clickFutebolAmericano();
+    competitivasPage.validateFutebolAmericano();
   });
 
   it('Futebol Sociaty', () => {
-    
+    competitivasPage.clickFutebolSociety();
+    competitivasPage.validateFutebolSociety();
   });
 
   it('Futsal', () => {
-    
+    competitivasPage.clickFutsal();
+    competitivasPage.validateFutsal();
   });
 
   it('Futsal Feminino Tiger', () => {
-    
+    competitivasPage.clickFutsalFemininoTiger();
+    competitivasPage.validateFutsalFemininoTiger();
   });
 
   it('Handebol', () => {
-    
+    competitivasPage.clickHandebol();
+    competitivasPage.validateHandebol();
   });
 
   it('MMA', () => {
-    
+    competitivasPage.clickMMA();
+    competitivasPage.validateMMA();
   });
 
   it('Natação', () => {
-    
+    competitivasPage.clickNatacao();
+    competitivasPage.validateNatacao();
   });
 
   it('Rally', () => {
-    
+    competitivasPage.clickRally();
+    competitivasPage.validateRally();
   });
 
   it('Remo', () => {
-    
+    competitivasPage.clickRemo();
+    competitivasPage.validateRemo();
   });
 
-  it('Skate', () => {
-    
+  it.only('Skate', () => {
+    competitivasPage.clickSkate();
+    competitivasPage.validateSkate();
   });
 
   it('Surf', () => {
