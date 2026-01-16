@@ -183,4 +183,5 @@ export class SedePage {
             .should("be.visible")
             .and("contain.text", "Portal do Associado")
     }
+
 }

@@ -67,4 +67,5 @@ export class OrganogramaPage {
             .should("be.visible")
             .and("contain.text", "CORI")
     }
+
 }

@@ -25,4 +25,5 @@ export class MenuModalidadesPage {
             .should("be.visible")
             .and("contain.text", "Paradesporto")
     }
+    
 }

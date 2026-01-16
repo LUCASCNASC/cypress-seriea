@@ -54,4 +54,5 @@ export class SobreCorinthiansPage {
             .should("be.visible")
             .and("contain.text", "CLUBE - IDENTIDADE")
     }
+
 }

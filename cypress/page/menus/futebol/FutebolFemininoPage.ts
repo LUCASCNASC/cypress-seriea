@@ -67,4 +67,5 @@ export class FutebolFemininoPage {
             .should("be.visible")
             .and("contain.text", "NOTÍCIAS")
     }
+    
 }

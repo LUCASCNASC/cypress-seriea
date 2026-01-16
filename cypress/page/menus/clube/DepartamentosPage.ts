@@ -118,4 +118,5 @@ export class DepartamentosPage {
             .should("be.visible")
             .and("contain.text", "Esportes Terrestres")
     }
+
 }

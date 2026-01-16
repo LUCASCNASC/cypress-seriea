@@ -36,4 +36,5 @@ export class MenuClubePage {
             .should("be.visible")
             .and("contain.text", "Sede")
     }
+
 }

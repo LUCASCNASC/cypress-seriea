@@ -25,4 +25,5 @@ export class MenuFutebolPage {
             .should("be.visible")
             .and("contain.text", "Formação de Atletas")
     }
+
 }

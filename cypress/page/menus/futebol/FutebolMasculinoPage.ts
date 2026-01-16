@@ -66,4 +66,5 @@ export class FutebolMasculinoPage {
             .should("be.visible")
             .and("contain.text", "NOTÍCIAS")
     }
+
 }

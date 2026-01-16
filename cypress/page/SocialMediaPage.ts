@@ -48,4 +48,5 @@ export class SocialMediaPage {
         cy.window().then((win) => { cy.stub(win, 'open').as('windowOpen') })
         cy.url().should('include', 'https://www.corinthians.com.br/')
     } 
+    
 }

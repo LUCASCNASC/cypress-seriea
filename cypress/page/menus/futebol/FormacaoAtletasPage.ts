@@ -82,4 +82,5 @@ export class FormacaoAtletasPage {
             .should("be.visible")
             .and("contain.text", "Processo Seletivo de Triagem e Captação do Corinthians")
     }
+
 }

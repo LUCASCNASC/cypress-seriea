@@ -335,5 +335,4 @@ export class CompetitivasPage {
             .and("contain.text", "Xadrez")
     }
 
-    
 }
