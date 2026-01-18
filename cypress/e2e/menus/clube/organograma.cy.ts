@@ -6,33 +6,27 @@ describe('menu Organograma', () => {
   const menuClubePage = new MenuClubePage(); // ✅ cria instância
 
   beforeEach(() => {
-
     cy.visit('/');
     menuClubePage.clickClube();
-    menuClubePage.validateOrganograma()
+    menuClubePage.validateOrganograma();
   });
 
   it('Presidência e Diretoria', () => {
-
-    organogramaPage.clickPresidenciaDiretoria()
-    organogramaPage.validatePresidenciaDiretoria()
+    organogramaPage.clickPresidenciaDiretoria();
+    organogramaPage.validatePresidenciaDiretoria();
   });
 
   it('Conselho Deliberativo', () => {
-
-    organogramaPage.clickConselhoDeliberativo()
-    organogramaPage.validateConselhoDeliberativo()
+    organogramaPage.clickConselhoDeliberativo();
+    organogramaPage.validateConselhoDeliberativo();
   });
-
   it('Conselho Fiscal', () => {
     
-    organogramaPage.clickConselhoFiscal()
-    organogramaPage.validateConselhoFiscal()
+    organogramaPage.clickConselhoFiscal();
+    organogramaPage.validateConselhoFiscal();
   });
-
   it('CORI', () => {
-
-    organogramaPage.clickCori()
-    organogramaPage.validateCori()
+    organogramaPage.clickCori();
+    organogramaPage.validateCori();
   });
 });

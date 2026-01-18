@@ -6,20 +6,17 @@ describe('menu Fale Conosco', () => {
   const menuClubePage = new MenuClubePage(); // ✅ cria instância
 
   beforeEach(() => {
-
     cy.visit('/');
     menuClubePage.clickClube();
     menuClubePage.validateFaleConosco();
   });
 
   it('Contatos', () => {
-
     faleConoscoPage.clickContatos();
     faleConoscoPage.validateContatos();
   });
 
   it('Ouvidoria', () => {
-
     faleConoscoPage.clickOuvidoria();
     faleConoscoPage.validateOuvidoria();
   });

@@ -6,26 +6,22 @@ describe('menu Sobre o Corinthians', () => {
   const menuClubePage = new MenuClubePage(); // ✅ cria instância
 
   beforeEach(() => {
-
     cy.visit('/');
     menuClubePage.clickClube();
     menuClubePage.validateSobreCorinthians();
   });
 
   it('História', () => {
-
     sobreCorinthiansPage.clickHistoria();
     sobreCorinthiansPage.validateHistoria();
   });
 
   it('Títulos', () => {
-
     sobreCorinthiansPage.clickTitulos();
     sobreCorinthiansPage.validateTitulos();
   });
 
   it('Identidade', () => {
-
     sobreCorinthiansPage.clickIdentidade();
     sobreCorinthiansPage.validateIdentidade();
   });
